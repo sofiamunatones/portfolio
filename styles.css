@@ -1,0 +1,187 @@
+
+#title {
+  background-color: rgb(212, 203, 203);
+}
+
+.container-fluid {
+  padding:3% 15%;
+}
+.heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+}
+
+.download {
+  margin: 5% 3% 5% 0%
+}
+
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position:static;
+    transform: rotate(0);
+  }
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+.features-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-weight: thin;
+  color: black;
+}
+
+.words {
+  color: grey;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.icon {
+  color: rgb(233, 179, 179);
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color:  rgb(175, 187, 221);
+}
+
+.icon {cursor: pointer;}
+
+#Portfolio {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #5DA7DB;
+}
+
+h2 {
+  font-family: montserrat;
+  font-weight: bold;
+  font-size: 1.5;
+  color: white;
+}
+
+.testimonal-image {
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #5DA7DB;
+  text-align:center;
+}
+
+.press-logo {
+  width: 10%;
+  margin: 20px
+}
+
+#pricing {
+  font-family: montserrat;
+  padding: 7%;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+.pricing-title {
+  font-family: ubuntu;
+  color:black;
+  text-align: center;
+}
+
+.pricing-paragraph {
+  font-family: montserrat;
+  text-align: center;
+  padding-top: .5%
+  padding-bottom: 10%
+}
+
+#cta {
+  background-color: #5DA7DB;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading {
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+#Contact {
+  color: black;
+  background-color: rgb(175, 187, 221);
+  font-family: 'Playfair Display', serif;
+}
+
+.media {
+  padding: 10%;
+}
+
+img {
+  padding-right: 15%;
+}
+
+.ml-3 {
+  padding-left: 15%;
+}
+
+a {
+  color: black;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+}
+
+a:hover {
+  color:  rgb(175, 187, 221);
+  text-decoration: none;
+}
+
+.description {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.carousel-inner>.item>img {
+  width:100px;
+  height: 100px;
+}
+
